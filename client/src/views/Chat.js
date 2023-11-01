@@ -68,6 +68,7 @@ class Chat extends React.Component {
     };
 
     onNewMessage = message => {
+        if(message.sender === this.state.user.id) return; 
         if(message.sender === this.state.contact.id){
             this.setState({typing: false});
             this.state.socket.emit('seen', this.state.contact.id);
@@ -75,7 +76,7 @@ class Chat extends React.Component {
         }
         let messages = this.state.messages.concat(message);
         this.setState({ messages });
-      };
+    };
 
     onTypingMessage = sender => {
         if(this.state.contact.id !== sender) return;

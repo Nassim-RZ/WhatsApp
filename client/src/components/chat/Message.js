@@ -1,5 +1,6 @@
 import React from "react";
 import moment from 'moment';
+moment.locale('en');
 
 const Message = props => (
    <div className={props.message.outgoing ? 'message-item' : 'message-item incoming'}>
