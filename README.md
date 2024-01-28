@@ -25,7 +25,7 @@ To deploy this project:
 
 2- Install the dependencies.
 ```bash
-    cd client
+  cd client
 ```
 
 ```bash
@@ -47,7 +47,7 @@ To deploy this project:
 3- Run the application locally.
 
 ```bash
-    cd client
+  cd client
 ```
 
 ```bash
