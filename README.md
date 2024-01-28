@@ -1,4 +1,4 @@
-"# WhatsApp" 
+## WhatsApp
 A Chat Application that allows users to engage in conversations with their contacts. Similar to WhatsApp, users can check the online status of their contacts, leave messages for them, and even modify their own profile.
 
 
