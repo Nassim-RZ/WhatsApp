@@ -2,7 +2,7 @@ import React from 'react';
 import { Link } from 'react-router-dom';
 import { Card, Form, Input, Button } from 'reactstrap';
 import Error from 'components/Errors';
-import Logo from 'assets/logo.png'; 
+import Logo from 'assets/R.png'; 
 import Auth from 'Auth';
 import axios from 'axios';
 
