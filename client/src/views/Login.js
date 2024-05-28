@@ -21,7 +21,7 @@ class Login extends React.Component{
         let data = {
             username: this.state.username, password: this.state.password
         };
-        axios.post('https://whatsapp-puvp.onrender.com/api/auth', data).then(res => {
+        axios.post('https://whatsapp-3-uk58.onrender.com/api/auth', data).then(res => {
             Auth.login(res.data);
             this.props.navigate('/');
 
